@@ -1,0 +1,33 @@
+
+@media  (max-width: 500px) {
+    #navbar{
+         flex-direction: column;
+         padding-top: 0.5rem;
+         padding-bottom: 0.5rem;
+         overflow: hidden; /*  taşmayı engeller */
+         height: 100px;
+    }
+
+
+}
+@media  (max-width: 500px) {
+    #information .items {
+    flex-direction: column;
+
+
+
+
+
+    }
+}
+@media  (max-width: 500px) {
+    #information .items .item {
+        width: 100%;
+
+
+
+
+
+
+    }
+}

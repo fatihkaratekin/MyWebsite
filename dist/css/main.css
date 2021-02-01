@@ -1,0 +1,180 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+html{
+    font-family: 'Oswald', sans-serif;
+}
+
+#navbar{
+    color: aliceblue;
+    display: flex; /* yan yana getirir */
+    justify-content: space-between; /* ul leri sag tarafa yanaştırır */
+    align-items: center; /* yazıyı ortalar */
+    padding: 0 0.50rem;
+    height: 65px;
+
+}
+
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul li a {
+    padding: 1.0rem;
+
+}
+
+#navbar ul li a:hover{
+    background: #336ea2;
+    border-radius: 5px;
+}
+h1{
+   z-index: 1;
+}
+
+/* Home bölümü */
+
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 2px solid black;
+
+}
+#home img{
+    max-width: 100%;
+    height: auto;
+}
+#home .name{
+    text-align: center;
+}
+#home .name h2 {
+    margin-bottom: 10px;
+
+}
+#home .name p {
+    opacity: 0.5;
+    font-style: italic ;
+}
+
+#home a {
+    margin-top: 1.25rem;
+    background: #336ea2;
+    padding: 0.7rem 2rem;
+    border-radius: 7px;
+    letter-spacing: 1px;
+}
+#home a:hover{
+    color: #336ea2;
+    background: aliceblue;
+    border: 0.50px solid #336ea2;
+
+}
+
+/* Hakkında bölümü */
+
+#information {
+    color: white;
+    padding: 1rem;
+}
+#information .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#information .items .item {
+        width: 33%;
+        text-align: center;
+        padding: 1.0rem;
+}
+#information .items .item:hover{
+    color: green;
+    opacity: 0.8;
+
+}
+#hizmetler .hizmetler .hizmet .hizmetlerimg img{
+    max-width: 200px;
+    height: 200px;
+
+}
+#hizmetler{
+    color: #062e52;
+    padding: 1rem;
+}
+.hizmetler{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.hizmetler .hizmet {
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.hizmetler.hizmet.hizmetlerimg{
+    margin-right: 0.5rem;
+    position: relative;
+}
+ .başlık{
+    letter-spacing: 1.2px;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+     margin-left: 1.25rem;
+}
+.açıklama{
+    letter-spacing: 1.2px;
+   margin-bottom: 0.25rem;
+    opacity: 0.6;
+    padding: 1.5rem;
+}
+
+/* Contact */
+#contact{
+    color: white;
+    padding: 1rem;
+}
+
+#contact .contact-form{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+#contact .contact-form ul {
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+    align-self: center;
+}
+#contact .contact-form ul li a {
+    padding: 1rem;
+    font-size: 2rem;
+}
+#contact .contact-form ul li a:hover{
+    opacity: 0.7;
+}
+button{
+    height: 50px;
+    width: 100%;
+    background: white;
+    color: #062e52;
+}
+button:hover{
+    background: #336ea2 ;
+    color: white;
+}
